@@ -18,8 +18,8 @@ int	ft_printf(const char * format, ...)
 	int done;
 
 	va_start (args, format);
-  	done = ft_vfprintf(STDOUT, format, args);
-  	va_end (args);
+	done = ft_vfprintf(STDOUT, format, args);
+	va_end (args);
 	return (done);
 }
 

@@ -20,7 +20,7 @@
 
 # define STDOUT 1
 
-int ft_printf(const char *format, ...);
-int ft_vfprintf(int fd, const char *format, va_list args);
+int	ft_printf(const char *format, ...);
+int	ft_vfprintf(int fd, const char *format, va_list args);
 
 #endif
